@@ -1,0 +1,30 @@
+.card-list{
+//  border: 1px solid red;
+ margin-top: 5px;
+}
+.Card{
+    background-color: yellow;
+    color: red;
+    // margin-bottom: 5px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 5px auto;
+    .cross-btn{
+        cursor: pointer;
+        float: right;
+    }
+}
+.example-enter{
+    opacity: 0.01;
+}
+.example-enter.example-enter-active{
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+.example-exit{
+    opacity: 1;
+}
+.example-exit.example-exit-active{
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
